@@ -48,3 +48,31 @@ pip install pandas jupyter
 ```
 Open the notebook, keep `applicants.csv` in the same folder, and click **Run All**.
 All cleaning is done in code, with no manual edits to the CSV.
+
+## Week 3: SQL and Program Performance Dashboard
+
+**What this project does:** answers questions about the NextGenLearners internship program using SQL, then shows the answers on an interactive dashboard that non-technical staff can use.
+
+**Data:** three related MySQL tables with sample data (applicants, interns, hackathon_scores). The setup script is `nextgen_mock_database.sql`.
+
+**Part A: SQL queries** (`Week3_SQL_Queries_Maryam_Fatima.ipynb`)
+1. Completed interns per domain
+2. Average hackathon score per domain
+3. Top performers (JOIN)
+4. Conversion rate from applied to completed (LEFT JOIN)
+5. Which universities produce the highest-scoring interns (two JOINs and HAVING)
+
+**Part B: Dashboard** (`dashboard.py`, built with Streamlit): a domain filter, a funnel of applicants, interns and completions, completion rate per domain, average score per domain, and a top 10 leaderboard.
+
+**How to run it:**
+1. Run `nextgen_mock_database.sql` in MySQL Workbench.
+2. Install the tools: `pip install streamlit pandas sqlalchemy pymysql`
+3. Start the dashboard: `streamlit run dashboard.py`, then enter your MySQL password in the sidebar.
+
+**Demo:**
+
+![All domains](demo/01_all_domains.png)
+![Filtered to Data Science](demo/02_data_science.png)
+![Top 10 leaderboard](demo/03_leaderboard.png)
+
+**Key findings (sample data):** Web Development has the highest conversion rate (44.71%), Machine Learning the highest average score (79.76), and NUST the highest-scoring interns on average (80.40).
