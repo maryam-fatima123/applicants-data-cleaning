@@ -74,5 +74,6 @@ All cleaning is done in code, with no manual edits to the CSV.
 ![All domains](demo/01_all_domains.png)
 ![Filtered to Data Science](demo/02_data_science.png)
 ![Top 10 leaderboard](demo/03_leaderboard.png)
+![Watch the 1-minute dashboard demo](https://drive.google.com/drive/my-drive)
 
 **Key findings (sample data):** Web Development has the highest conversion rate (44.71%), Machine Learning the highest average score (79.76), and NUST the highest-scoring interns on average (80.40).
