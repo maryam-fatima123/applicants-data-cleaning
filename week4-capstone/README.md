@@ -39,4 +39,4 @@ Small and partly simulated data, a very small test set, possible bias inherited 
 3. Choose **Runtime → Run all** and run the cells from top to bottom.
 
 ## Walkthrough Video
-[(https://drive.google.com/file/d/16rwNHXH9FyqRA2oPWrWBvsRmUtFh17ak/view?usp=drive_link)]
+(https://drive.google.com/file/d/16rwNHXH9FyqRA2oPWrWBvsRmUtFh17ak/view?usp=drive_link)
